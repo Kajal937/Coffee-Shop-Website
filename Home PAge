@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <style>
+    .home{
+       margin-top: 100px;
+       padding-left: 20px;
+     }
+
+   .search {
+      float: right;
+      text-align: center;
+      border: 2px ;
+      padding-top: 30px;
+     }  
+        
+    .element{
+        float: right;
+        margin-right: 50px;
+        padding-top:  40px;
+     }
+    .search a:hover{
+        color: var(--main-color);
+        border-bottom: 1rem solid var(--main-color);
+        padding-bottom: .5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+   <a href="#" class="logo"><img src="logo.png" width="100px" height="100px" > 
+   <div class="search">
+    <input type="text" name="search" id="searchit" placeholder="search here">
+   </div>
+  <a class="element" href ="contact.html">Contact</a>
+  <a  class="element" href="product1.html">Products</a> 
+  <a class="element" href="menu.html">Menu</a>
+  <a class="element"  href="about.html">About</a>
+  <a  class="element" href="home.html">Home</a>
+   </div> 
+  <hr> 
+   <div class="front"><br><br><br><br>
+   <h1 class="home">FRESH COFFEE IN <br>THE MORNING</h1>
+    <P>Never trust anyone who doesn't drink coffee <span id="dots">...</span><span id="more"> "Our culture runs on coffee and gasoline, the first often tasting like the second." "Science may never come up with a better office communication system than the coffee break." "The smell of fresh-made coffee is one of the world's greatest inventions."
+    </span>
+    </P>
+    <button onclick="myFunction()" id="myBtn">LEARN MORE</button>
+    <br> <br><br><br>
+</div>
+<script>
+    function myFunction(){
+        var dots =document.getElementById("dots");
+        var moreText =document.getElementById("more");
+        var btnText =document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display= "inline";
+           btnText.innerHTML = "Read more";
+           moreText.style.display = "none"
+        } else {
+            dots.style.display= "none";
+           btnText.innerHTML = "Read less";
+           moreText.style.display = "inline"
+        }
+
+    }
+</script>
+   
+</body>
+</html>
