@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="website.css">
+   <style>
+  .card {
+  box-shadow: 0  4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: burlywood;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.img{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display:block;
+}
+.element{
+        float: right;
+        margin-right: 50px;
+        padding-top:  40px;
+       }
+   .home{
+     margin-top: 80px;
+        }
+  
+  .search {
+     float: right;
+     text-align: center;
+     border: 2px ;
+     padding-top: 30px;
+   }
+.box1{
+  display: flex;
+  float:left;
+  padding: 5px;
+  margin: 10px;
+  border: black;
+}
+
+.box2{
+  display: flex;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+  border: black;
+}
+.box3{
+  display: flex;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+.box4{
+  display: flex;
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+.box5{
+  display: flex;
+ float: left;
+ padding: 5px;
+ margin: 10px;
+}
+.box6{
+  display: flex;
+ float: left;
+ padding: 5px;
+ margin: 10px;
+}
+.card1{
+  margin-left: 250px;
+  margin-right: 200px;
+  margin-top: 5px;
+  margin-bottom: 180px;
+
+}
+
+.box6{
+  height: 5px;
+  width: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+}
+.heading{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+  
+   }
+   .menu-box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax (30rem, 1fr));
+    gap: 1.5rem;
+   }
+   .menu-box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+   }
+   .menu-box-container .box img{
+    height: 10rem;
+    
+
+   }
+   .menu-box-container .box figcaption{
+    color: black;
+    font-size: 2rem;
+    padding: 1rem 0;
+   }
+   .menu-box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 5rem 0;
+   }
+   .search a:hover{
+        color: var(--main-color);
+        border-bottom: 1rem solid var(--main-color);
+        padding-bottom: .5rem;
+       }
+  /* .menu-box-container .box:hover{
+    background: #fff;
+   }
+   .menu-box-container .box:hover{
+    color: var(--black);
+   }*/
+   </style>
+</head>
+<body>
+    <div class="navbar">
+      <a href="#" class="logo"><img src="logo.png" width="100px" height="100px" >
+   <div class="search">
+    <input type="text" name="search" id="searchit" placeholder="search here">
+   </div>
+  <a class="element" href="contact.html">Contact</a>
+  <a class="element" href="product1.html">Products</a> 
+  <a class="element" href="menu.html">Menu</a>
+  <a class="element" href="about.html">About</a>
+  <a class="element" href="home.html">Home</a>
+   </div> 
+   <hr>
+    <section class="menu">
+      <h1 class="heading"><span>Menu</span></h1>
+      <div class="box-container">  
+   <div class="box1">  
+<div class="box">
+  <figure>
+  <border-color:solid black>
+  <img src="img.h1.jpg" height="70px" width="120px">
+  <figcaption style="text-align: left">Tasy and Healty</figcaption>
+  <figcaption class="price"> $20.99</figcaption>
+  <p><button>Add to Cart</button></p>
+  </figure>
+</border>
+</div>
+   </div>
+    
+<div class="box2">    
+<div class="box">
+  <figure>
+  <img src="img.h2.jpg"  height="70px" width="120px">
+  <figcaption style="text-align:left">Tasy and Healty</figcaption>
+  <figcaption class="price">$20.99</figcaption>
+  <p><button>Add to Cart</button></p>
+</figure>
+</div>
+</div>
+
+<div class="box3">     
+<div class="box">
+  <figure>
+  <img src="img.h3.jpg"  height="70px" width="120px">
+  <figcaption style="text-align: left">Tasy and Healty</figcaption>
+  <figcaption class="price">$20.99<figcaption>
+  <p><button>Add to Cart</button></p>
+</figure>
+</div>
+</div>
+
+
+  <div class="box4">      
+<div class="box">
+  <figure>
+  <img src="img.h6.jpg"  height="70px" width="120px">
+  <figcaption style="text-align: left">Tasy and Healty</figcaption>
+  <figcaption class="price">$20.99<figcaption>
+  <p><button>Add to Cart</button></p>
+</figure>
+</div>
+  </div>
+
+<div class="box5">    
+<div class="box">
+  <figure>
+  <img src="img.h7.jpg"  height="70px" width="120px">
+  <figcaption style="text-align: left">Tasy and Healty</figcaption>
+  <figcaption class="price">$20.99<figcaption>
+  <p><button>Add to Cart</button></p>
+</figure>
+</div>
+</div>
+
+<div class="box6">    
+<div class="box">
+  <figure>
+  <img src="img.h6.jpg"  height="70px" width="120px">
+  <figcaption style="text-align: left">Tasy and Healty</figcaption>
+  <figcaption class="price">$20.99<figcaption>
+  <p><button>Add to Cart</button></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+   </div>
+   </body>
+</html>
