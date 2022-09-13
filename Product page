@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <style>
+    div.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 90px;
+}
+.element{
+   float: right;
+   margin-right: 50px;
+   padding-top:  40px;
+       }
+ .search {
+     float: right;
+     text-align: center;
+     border: 2px ;
+    padding-top: 30px;
+   }  
+  .products-box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.5rem;
+   }
+  .products-box-container .box{
+      padding: 5rem;
+      text-align: center;
+      border: var(--border);
+   }
+   .products-box-container .box img{
+    height: 10rem;
+
+   }
+   .heading{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+   
+   }
+   .box1{
+  display: flex;
+  float: left;
+  padding-left: 260px;
+}
+ 
+.box2{
+  display: flex;
+  float: left;
+
+}
+.box3{
+  display: flex;
+  float: left;
+}
+
+    </style>
+   
+
+</head>
+<body>
+    <div class="navbar">
+   <a href="#" class="logo"><img src="logo.png" width="100px" height="100px" > 
+   <div class="search">
+    <input type="text" name="search" id="searchit" placeholder="search here">
+   </div>
+  <a class="element" href ="contact.html">Contact</a>
+  <a  class="element" href="product1.html">Products</a> 
+  <a class="element" href="menu.html">Menu</a>
+  <a class="element"  href="about.html">About</a>
+  <a  class="element" href="home.html">Home</a>
+   </div> 
+  <hr> 
+  <section class="products">
+    <h1 class="heading"><span>Products</span></h1>
+    <div class="box-container">  
+  <div class="box1">    
+    <div class="box">
+      <figure>
+      <img src="img.hd1.jpg"  height="200px" width="200px" >
+      <figcaption style="text-align:center">Fresh Coffee</figcaption>
+      <figcaption class="price">$20.99</figcaption>
+    </figure>
+    </div>
+    </div>        
+<div class="box2">    
+    <div class="box">
+      <figure>
+      <img src="img.hd1.webp"  height="200px" width="200px">
+      <figcaption style="text-align:center">Fresh Coffee</figcaption>
+      <figcaption class="price">$20.99</figcaption>
+    </figure>
+    </div>
+    </div>      
+  <div class="box3">    
+    <div class="box">
+      <figure>
+      <img src="img.hd3.jpg"  height="200px" width="200px">
+      <figcaption style="text-align:center">Fresh Coffee</figcaption>
+      <figcaption class="price">$20.99</figcaption>
+      
+    </figure>
+    </div>
+    </div>
+    </div>
+   </section>
+  </body>
+  </html>
