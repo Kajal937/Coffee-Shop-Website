@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="website.css">
+    <style>
+   .footer{
+    background: var(--black);
+    text-align: center;
+   }
+   .footer .share{
+    padding: 1rem 0;
+   }
+   .footer .share{
+   height: 5rem;
+   width: 5rem;
+   line-height: 5rem;
+   font-size: 2rem;
+   color: #fff;
+   border: var(--border);
+   margin: 3rem;
+   }
+
+   .home{
+         margin-top: 80px;
+        }
+   .element{
+     float: right;
+     margin-right: 50px;
+     padding-top: 40px;
+        }
+      
+    .search {
+            float: right;
+            text-align: center;
+            border: 2px ;
+            padding-top: 30px;
+     }  
+     .container{
+       float: right;
+      height: 270px;
+      width: 600px;
+      margin-right: 70px;
+      color: black;
+      background-color: antiquewhite;
+     }
+     .heading{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+   
+   }
+   .map{
+    float: left;
+    margin-left: 70px;
+   }
+   .search a:hover{
+        color: var(--main-color);
+        border-bottom: 1rem solid var(--main-color);
+        padding-bottom: .5rem;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+  <a href="#" class="logo"><img src="logo.png" width="100px" height="100px" > </a>
+   <div class="search">
+    <input type="text" name="search" id="searchit" placeholder="search here">
+   </div>
+  <a class="element" href="contact.html">Contact</a>
+  <a class="element" href="product1.html">Products</a>
+  <a class="element" href="menu.html">Menu</a>
+  <a class="element" href="about.html">About</a>
+  <a class="element" href="home.html">Home</a>
+   </div>
+   <hr> 
+   <section class="contact us">
+    <h1 class="heading"><span>contact</span> us </h1>
+    
+    <div class="row">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.78825225606!2d72.82321483265882!3d19.14169021425791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1660325367910!5m2!1sen!2sin" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <div class="container">
+    <form action="/action_page.php">
+  <br>
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+  <br>
+      <label for="email id">Email id</label><br>
+      <input type="text" id="email id" name="email id" placeholder="Your email id..">
+  <br>
+  <br>
+  <label for="contact number">Number</label><br>
+  <input type="text" id="contact number" name="contact number" placeholder="Your contact number..">
+<br>
+      <input type="contact now" value="Contact now">
+  <br>
+    </form>
+  </div>
+    </div>
+   </section>
+  <section class="footer">
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about us</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">contacts</a>
+    </div>
+    <div class="credit">created by <span> kajal </span>| all rights reserved</div>
+  </section>
+</body>
+</html>  
