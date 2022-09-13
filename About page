@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Brygada+1918:ital@1&family=Cabin+Sketch&family=Charmonman&family=Julius+Sans+One&family=Megrim&family=Square+Peg&display=swap" rel="stylesheet">
+    <style>
+      .img{
+        float: left;
+      }
+      .div{
+        display: flex;
+      }
+      .content h1{
+           
+          font-family: 'Noto Serif Display', serif;
+          padding-left: 475px;
+          margin: auto;
+          font-size:60px ;
+          font-weight: 150;
+          color: black;
+        
+       }
+       .content p{
+          font-family: 'Brygada 1918', serif;
+           font-size: 20px;
+           font-family: 'Cormorant', serif;
+          text-align: center;
+           font-weight: 150;
+           color: black;
+       }
+       div.content{
+        background-color: bisque;
+        border: var(--blue);
+       }
+       .img{
+        text-align: center;
+        justify-content: center;
+       }
+       .about{
+        margin-left: 160px;
+        margin-right: 160px;
+        margin-top: 0px;
+       }
+       .element{
+        float: right;
+        margin-right: 50px;
+        padding-top:  40px;
+       }
+        .home{
+         margin-top: 80px;
+        }
+  
+    .search {
+            float: right;
+            text-align: center;
+            border: 2px ;
+              
+   }
+   .heading{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Noto Serif Display', serif;
+    
+   
+   }
+   .container{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 2px;
+   }
+   
+   .search a:hover{
+        color: var(--main-color);
+        border-bottom: 1rem solid var(--main-color);
+        padding-bottom: .5rem;
+       }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+   <a href="#" class="logo"><img src="logo.png" width="100px" height="100px" > </a>
+   <div class="search">
+    <input type="text" name="search" id="searchit" placeholder="search here">
+   </div>
+  <a class="element" href="contact.html">Contact</a>
+  <a class="element" href="product1.html">Products</a> 
+  <a class="element" href="menu.html">Menu</a>
+  <a class="element" href="about.html">About</a>
+  <a class="element" href="home.html">Home</a>
+   </div> 
+   <hr>
+   <section class="about" id="about">
+    <div class="container">
+  <h1 class="heading"><span>About</span> us </h1>
+  <div class="img">
+    <img src="img.about.jpg" height="366px" width="450px">
+  </div>
+  <div class="content">
+    <br><br><br>
+    <h1 class="content">What makes our coffee special?</h1>
+    <p>"Coffee smells like freshly ground heaven." "Science my never come up with a better office communication system than the coffee break." "I orchestrate my mornings to the tune of coffee."</p>
+    <button onclick="myFunction()" id="myBtn">Learn More</button>
+    <br><br><br>
+  </div>
+    </div>
+</section>
+<script>
+  function myFunction(){
+      var dots =document.getElementById("dots");
+      var moreText =document.getElementById("more");
+      var btnText =document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+          dots.style.display= "inline";
+         btnText.innerHTML = "Read more";
+         moreText.style.display = "none"
+      } else {
+          dots.style.display= "none";
+         btnText.innerHTML = "Read less";
+         moreText.style.display = "inline"
+      }
+
+  }
+</script>
+</body>
+</html>
