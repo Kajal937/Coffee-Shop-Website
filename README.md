@@ -1,5 +1,5 @@
 # Coffee-Shop-Website
-Developed a Coffee Shop Website using HTML, CSS, JAVASCRPT 
+Developed a Coffee Shop Website using HTML, CSS, JAVASCRPT
 ![Screenshot (802)](https://user-images.githubusercontent.com/81144663/202888115-765e846d-6ddd-4196-804b-a01122794073.png)
 ![Screenshot (809)](https://user-images.githubusercontent.com/81144663/202888117-baa5a597-276b-4b81-a162-f5a02a58dee7.png)
 ![Screenshot (808)](https://user-images.githubusercontent.com/81144663/202888121-6ea6f967-847b-45c3-9003-dd432003acfc.png)
